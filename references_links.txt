@@ -1,0 +1,17 @@
+- https://missing.csail.mit.edu/2020/
+- https://www.shellscript.sh/
+- https://images.datacamp.com/image/upload/v1700047731/Marketing/Blog/Bash_Cheat_Sheet.pdf
+- Use of braces/brackets https://stackoverflow.com/questions/2188199/how-to-use-double-or-single-brackets-parentheses-curly-braces
+- Over the wire: https://overthewire.org/wargames/bandit/
+- Shakespeare's work: https://raw.githubusercontent.com/brunoklein99/deep-learning-notes/master/shakespeare.txt
+- sed command in Linux https://www.howtogeek.com/666395/how-to-use-the-sed-command-on-linux/
+- file permission notation https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions
+- piping vs. xargs https://stackoverflow.com/questions/35589179/when-to-use-xargs-when-piping
+- Quoting https://www.gnu.org/software/bash/manual/html_node/Quoting.html
+- grep tutorial https://www.howtoforge.com/tutorial/linux-grep-command/
+- regex cheatsheet https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet
+- File encryption
+    https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/
+    https://stackoverflow.com/questions/16056135/how-to-use-openssl-to-encrypt-decrypt-files
+- The book What is Computer Science by Nigel Smart
+- catching STDERR https://stackoverflow.com/questions/818255/what-does-21-mean

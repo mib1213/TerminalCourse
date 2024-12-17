@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+from os.path import isdir, join
+from os import urandom, makedirs
+# from random import SystemRandom
+import random
+
+
+assert not isdir('topdir'), 'topdir already exists. Please remove it first.'
+random.seed(42)
+D = random.randrange(5, 8)
+W = D - 1
+n = W ** (D - 1)
+B_L = 3
+L = B_L * 2
+LC = 0
+
+
+def r(p):
+    def w(p):
+        global LC
+        with open(join(p, urandom(B_L).hex() + '.txt'), 'w') as fl:
+            fl.writelines(l[LC:LC + nl])
+        LC += nl
+
+    w(p); w(p)
+    if len(p) <= D * (L + 1):
+        for _ in range(W):
+            sub_p = join(p, urandom(B_L).hex())
+            makedirs(sub_p)
+            r(sub_p)
+    else:
+        pass
+
+
+with open('data/shakespeare.txt', 'r') as f:
+    l = f.readlines()
+
+l = l * D
+nl = len(l) // (2 * n - 2)
+td = join('topdir', urandom(B_L).hex()); makedirs(td); r(td)
