@@ -6,7 +6,7 @@ import random
 
 
 assert not isdir('topdir'), 'topdir already exists. Please remove it first.'
-random.seed(42)
+random.seed(0)
 D = random.randrange(5, 8)
 W = D - 1
 n = W ** (D - 1)
