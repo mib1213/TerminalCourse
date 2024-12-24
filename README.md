@@ -7,7 +7,9 @@ python -m bash_kernel.install
 ```
 
 COPYRIGHT
-This repository has been cloned from [Terminal Course](https://gitlab.com/courses_pub/inf_ds_ws2425/-/tree/master/terminal_course?ref_type=heads)
+=========
+
+This repository has been cloned from [Terminal Course](https://gitlab.com/courses_pub/inf_ds_ws2425/-/tree/master/terminal_course?ref_type=heads) EXCEPT the solutions of the exercises
 
 CONTENTS
 ========
