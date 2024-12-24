@@ -1,3 +1,14 @@
+How to setup jupyter notebook environment for the bash commands:
+
+```bash
+conda create -p "ENVIRONMENT_PATH" python=3.11 notebook bash_kernel
+conda activte "ENVIRONMENT_PATH"
+python -m bash_kernel.install
+```
+
+COPYRIGHT
+This repository has been cloned from [Terminal Course](https://gitlab.com/courses_pub/inf_ds_ws2425/-/tree/master/terminal_course?ref_type=heads)
+
 CONTENTS
 ========
 
@@ -24,3 +35,5 @@ Other resources on specific topics are:
 - sed command in Linux: https://www.howtogeek.com/666395/how-to-use-the-sed-command-on-linux/
 - file permission notation: https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions
 - piping vs. xargs: https://stackoverflow.com/questions/35589179/when-to-use-xargs-when-piping
+
+
